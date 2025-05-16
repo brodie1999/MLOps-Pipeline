@@ -2,7 +2,6 @@
 This project will look at developing an MLOPS pipline for fraud detection. 
 
 ## Aims & Objectives 
-```
 
     The aim of this project is to:
         -> Further understand Machine Learing
@@ -18,15 +17,13 @@ This project will look at developing an MLOPS pipline for fraud detection.
         -> Continuous Learning & Model Updates
         -> Security & Governance 
 
-```
-
 ## **Requirements**
 
 Q: What business Problems to solve: 
     -> Fraud Detection (Decision)
 
 ### Requirements for Fraud detection & MLOPS Pipline: 
-    ```
+
         1 - Create data ingest and preprocess step 
             1.1 - this will include feature engineering & removing missing values
             1.2 - Using Apache Airflow to handle large amounts of data. Airflow uses DAG (Directed Acyclic Graphs) 
@@ -54,11 +51,9 @@ Q: What business Problems to solve:
             5.1 - A/B testing: Compare different version of a model to determine which performs better
             5.2 - User feedback: Incorporate feedback from end-users to enhance model usability 
             5.3 - Continuous Improvement: Use insights gained from monitioring & feedback to update & retrain models. 
-    ```
 
 ## About Machine Learning Operations 
 
-```
     source: Google Cloud -> https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning
 
     By using the above document and following a guide to help keep us on the right track, I will aim to build an MLOPS Pipline for fraud detection.
@@ -78,11 +73,9 @@ Q: What business Problems to solve:
     It is a central production for data science teams, incorporating best practices and enabling scalable execution.
     They are great if you are managing multiple models or just updating a single model, an end-to-end machine learning pipline is essential for effective
     and efficient implementation.
-```
 
 ## Benefits of an End-to-End ML Pipline 
 
-```
     The benefits are:
 
         -> **Ensure reproducibility**: By executing the pipline multiple times with the same inputs, we achieve consistent outputs, which enhances the reproducibility
@@ -95,5 +88,3 @@ Q: What business Problems to solve:
                                         spending excessive time maintaining existing ones.
         -> **Facilitate reusability**: Specific steps can be reused to develop and deploy end-to-end solutions, allowing for seamless integration with existing systems without the need
                                         to start from scratch each time. 
-
-```
