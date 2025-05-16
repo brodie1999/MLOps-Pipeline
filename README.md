@@ -20,7 +20,7 @@ This project will look at developing an MLOPS pipline for fraud detection.
 ## **Requirements**
 
 Q: What business Problems to solve: 
-    -> Fraud Detection (Decision)
+    -> Fraud Detection 
 
 ### Requirements for Fraud detection & MLOPS Pipline: 
 
@@ -78,13 +78,13 @@ Q: What business Problems to solve:
 
     The benefits are:
 
-        -> **Ensure reproducibility**: By executing the pipline multiple times with the same inputs, we achieve consistent outputs, which enhances the reproducibility
+        -> Ensure reproducibility: By executing the pipline multiple times with the same inputs, we achieve consistent outputs, which enhances the reproducibility
                                         reliability of machine learning models
-        -> **Simplify Workflow**: The pipline automates multiple steps in the machine learning workflow. This reduces the need for manual intervention from the data science team,
+        -> Simplify Workflow: The pipline automates multiple steps in the machine learning workflow. This reduces the need for manual intervention from the data science team,
                                         making the process more efficient and streamlined.
-        -> **Accelerate Deployment**: The pipline helps reduce the time data and models take to the production phase. This enables faster deployment of machine learning solutions and
+        -> Accelerate Deployment: The pipline helps reduce the time data and models take to the production phase. This enables faster deployment of machine learning solutions and
                                         quicker integration into real-world applications
-        -> **Enable focus on innovation**: With modular components and automation in place, the pipline frees the data science team to focus more on developing new solutions rather than
+        -> Enable focus on innovation: With modular components and automation in place, the pipline frees the data science team to focus more on developing new solutions rather than
                                         spending excessive time maintaining existing ones.
-        -> **Facilitate reusability**: Specific steps can be reused to develop and deploy end-to-end solutions, allowing for seamless integration with existing systems without the need
+        -> Facilitate reusability: Specific steps can be reused to develop and deploy end-to-end solutions, allowing for seamless integration with existing systems without the need
                                         to start from scratch each time. 
