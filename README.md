@@ -26,28 +26,29 @@ Q: What business Problems to solve:
 
         1 - Create data ingest and preprocess step 
             1.1 - this will include feature engineering & removing missing values
-            1.2 - Using Apache Airflow to handle large amounts of data. Airflow uses DAG (Directed Acyclic Graphs) 
+            1.2 - Using Apache Airflow to handle large amounts of data. Airflow uses DAG (Directed Acyclic Graphs). 
+                   (REQ 1.2: This has been changed to Prefect for now)
             1.3 - Research Apache Kafka which can gather real-time data from 
             
-        2 - Model Training & Validation 
+        2 - Model Training & Validation (MLflow & Logistic Regression)
             2.1 - Experiment Tracking: Tools like MLflow or DVC help track experiments, hyperparameters, and metrics.
             2.2 - Version Control: Maintain versioning for datasets, code and models using GIT or specialized tools like DVC
             2.3 - Cross-Validation: Use techniques like k-fold cross-validation to asses model robustness
             2.4 - Automated retraining: Schedule periodic retraining to keep models up-to-date with new data
 
-        3 - Model Deployment 
+        3 - Model Deployment (Flask API, Docker & Kubernetes)
             3.1 - Containerization: Use Docker to package the model & its dependenices into a potable container 
             3.2 - Orchestration: Kubernetes can manage containerized deployments at scale 
             3.3 - API Endpoints: Expose models as RESTful APIs using frameworks like FastAPI or Flask
             3.4 - CI/CD Integration: Integrate depliyment workflows with CI/CD piplines using Jenkins, GitHub Actions or GitLab CI
 
-        4 - Model monitioring & Maintenance
+        4 - Model monitioring & Maintenance (MLflow)
             4.1 - Performance Metrics: Track metrics like accuracy, precision, recall & F1-Score
             4.2 - Data Drift Detection: Monitor changes in input data distributions using tools like Evidently AI or WhyLabs
             4.3 - Logging & Alerts: Implement logging mechanisms and set up alerts for anomalies 
             4.4 - Scalability: Ensure the infrastructure can handle varying workloads without compromising performance 
 
-        5 - Feedback & interation 
+        5 - Feedback & interation (TBD)
             5.1 - A/B testing: Compare different version of a model to determine which performs better
             5.2 - User feedback: Incorporate feedback from end-users to enhance model usability 
             5.3 - Continuous Improvement: Use insights gained from monitioring & feedback to update & retrain models. 
