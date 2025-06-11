@@ -1,5 +1,5 @@
 # Machine Learning OPS Pipline
-This project will look at developing an MLOPS pipline for fraud detection. 
+This project will look at developing an MLOPS pipline. 
 
 ## Aims & Objectives 
 
